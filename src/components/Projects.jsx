@@ -7,7 +7,7 @@ const Projects = () => {
       id: 1,
       title: "Devsync",
       description:
-        "DevSync is a real-time, dark-themed coding accountability platform that allows developers to create study circles, track daily coding streaks, and solve coding challenges together. The platform automates challenge metadata scraping (from LeetCode and generic coding sites) and keeps groups motivated using live leaderboards, real-time chats with spoiler boundaries, and custom animations.",
+        "DevSync is a real-time, coding accountability platform that allows developers to create study circles, and solve coding challenges together.",
       tags: ["React", "Express", "Websockets","MongoDB", "Redis", "BullMQ"],
       imageUrl: "https://picsum.photos/seed/nebula/600/400",
       link: "https://dev2sync.vercel.app/",
