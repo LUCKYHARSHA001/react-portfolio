@@ -3,28 +3,48 @@ import "../styles/Projects.css";
 
 const Projects = () => {
   const projectsList = [
-    {
+     {
       id: 1,
+      title: "Devsync",
+      description:
+        "DevSync is a real-time, dark-themed coding accountability platform that allows developers to create study circles, track daily coding streaks, and solve coding challenges together. The platform automates challenge metadata scraping (from LeetCode and generic coding sites) and keeps groups motivated using live leaderboards, real-time chats with spoiler boundaries, and custom animations.",
+      tags: ["React", "Express", "Websockets","MongoDB", "Redis", "BullMQ"],
+      imageUrl: "https://picsum.photos/seed/nebula/600/400",
+      link: "https://dev2sync.vercel.app/",
+      githubLink: "https://github.com/LUCKYHARSHA001/devSync",
+    },
+     {
+      id: 2,
+      title: "ExamReady",
+      description:
+        "ExamReady is a high-performance web application designed to help students optimize their exam preparation. By uploading course syllabus or chapter PDFs, students receive custom-tailored, high-yield study guides .",
+      tags: ["React", "Node.js", "MongoDB", "Redis", "BullMQ"],
+      imageUrl: "https://picsum.photos/seed/nebula/600/400",
+      link: "https://examready006.vercel.app/",
+      githubLink: "https://github.com/LUCKYHARSHA001/examhelp",
+    },
+    {
+      id: 3,
       title: "SkillHance",
       description:
         "A real-time platform that provides overview about engineering branches and coding fundementals.",
-      tags: ["HTML", "CSS", "JavaScript"],
+      tags: ["React", "Node.js", "Express"],
       imageUrl: "https://picsum.photos/seed/nebula/600/400",
-      link: "https://skill-hance.vercel.app/",
-      githubLink: "https://github.com/LUCKYHARSHA001/SkillHancer",
+      link: "https://skillhance-lovat.vercel.app/",
+      githubLink: "https://github.com/LUCKYHARSHA001/skillhance",
     },
     {
-      id: 2,
+      id: 4,
       title: "USB Physical Security",
       description:
         "A robust security feature for unidentified threats aiming at ports.",
       tags: ["React", "flask", "openCV", "SMTP"],
       imageUrl: "https://picsum.photos/seed/nebula/600/400",
-      link: "https://usb-physical.vercel.app/",
-      githubLink: "https://github.com/LUCKYHARSHA001/USB_Physical",
+      link: "https://usbphysicalsec.vercel.app/",
+      githubLink: "https://github.com/LUCKYHARSHA001/usb_physical",
     },
     {
-      id: 3,
+      id: 5,
       title: "Credit Risk System",
       description:
         "A platform focused on reducing number of frauds in the time of loans",
@@ -34,7 +54,7 @@ const Projects = () => {
       githubLink: "https://github.com/LUCKYHARSHA001/Credit_Risk_System",
     },
     {
-      id: 4,
+      id: 6,
       title: "FindJob",
       description:
         "A daily based application used for finding jobs based on the particular locations",
