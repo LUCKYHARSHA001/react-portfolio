@@ -60,8 +60,8 @@ const Projects = () => {
         "A daily based application used for finding jobs based on the particular locations",
       tags: ["React", "Node", "CSS"],
       imageUrl: "https://picsum.photos/seed/nebula/600/400",
-      link: "https://findjob-test.vercel.app/",
-      githubLink: "https://github.com/LUCKYHARSHA001/findjobs_front",
+      link: "https://find-job-final.vercel.app/",
+      githubLink: "https://github.com/LUCKYHARSHA001/findJob_final",
     },
   ];
 
