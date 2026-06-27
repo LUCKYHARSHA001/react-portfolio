@@ -25,7 +25,7 @@ const Navbar = () => {
           <a href="#Contact" className="contact">
             Contact
           </a>
-          <a href="/resume.pdf" download="Harsha_Resume.pdf" className="resume">
+          <a href="/resume26.pdf" download="resume26.pdf" className="resume">
             Resume
           </a>
         </div>

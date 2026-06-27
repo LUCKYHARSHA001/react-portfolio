@@ -16,7 +16,7 @@ const Heropage = () => {
         </p>
         <div className="cta-buttons">
           <a
-            href="/resume.pdf"
+            href="/resume26.pdf"
             className="btn btn-primary"
             target="_blank"
             rel="noopener noreferrer"
